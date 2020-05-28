@@ -1,0 +1,13 @@
+Program:
+
+
+filenm=input("Input the name of the file :")
+ext=filenm.split(".")
+print("The extension of the file is :",ext[-1])
+
+
+Output:
+
+
+Input the name of the file :abc.py
+The extension of the file is : py
