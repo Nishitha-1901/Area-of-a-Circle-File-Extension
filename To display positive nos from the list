@@ -1,0 +1,31 @@
+Program:
+
+list=[]
+n=int(input("Enter the size of the list :"))
+for i in range(0,n):
+    e=int(input("Enter Number :"))
+    list.append(e)
+    
+print("The list accepted from the user is :")
+for num in list:
+    print(num)
+    
+print("The positive numbers from the list are :")
+for num in list:
+    if num>0:
+        print(num)
+        
+        
+My Output:
+
+Enter the size of the list :3
+Enter Number :4
+Enter Number :-2
+Enter Number :99
+The list accepted from the user is :
+4
+-2
+99
+The positive numbers from the list are :
+4
+99
