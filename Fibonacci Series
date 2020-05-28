@@ -1,0 +1,28 @@
+Program:
+
+a=0
+b=1
+n=int(input("Enter the limit for displaying Fibonacci Series :"))
+
+print(a)
+print(b)
+
+for i in range (2,n):
+    c=a+b
+    print(c)
+    a=b
+    b=c
+    
+    
+ My Output:
+ 
+Enter the limit for displaying Fibonacci Series :9
+0
+1
+1
+2
+3
+5
+8
+13
+21
