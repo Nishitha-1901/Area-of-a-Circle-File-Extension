@@ -1,0 +1,36 @@
+Program:
+
+def most_frequent(string,freq):
+    for i in string:
+        if i in freq:
+            freq[i]+=1
+        else:
+            freq[i]=1  
+    print("The frequency of each character in the string before sorting is :",str(freq))
+          
+          
+    print("The frequency of each character in string in the descending order is :")
+
+    for i in sorted( freq, key=freq.get , reverse=True):
+        print(i,freq[i])
+                      
+                      
+                      
+string=input("Enter the string :")
+freq={}
+most_frequent(string,freq)
+    
+    
+    
+ My Output:
+    
+Enter the string :mississippi
+The frequency of each character in the string before sorting is : {'m': 1, 'i': 4, 's': 4, 'p': 2}
+The frequency of each character in string in the descending order is :
+i 4
+s 4
+p 2
+m 1
+s 4
+p 2
+m 1
